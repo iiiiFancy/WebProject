@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Item Recommendation">
+<meta name="author" content="FCCCCCC">
+<title>Item Recommendation Final</title>
+<link
+	href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'
+	rel='stylesheet' type='text/css'>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+	<header class="top-header">
+		<nav class="top-nav">
+			<a href="#">Home</a> <a href="#">Contact</a> <a href="#">About</a>
+			<!-- 顶端导航按钮 -->
+		</nav>
+		<span id="welcome-msg"></span> <a id="logout-link" href="logout">Logout</a>
+		<i id="avatar" class="avatar fa fa-user fa-2x"></i>
+		<!-- 用户图标 -->
+	</header>
+
+
+	<div class="container">
+		<header>
+			<p>
+				<span>Item</span> <br /> Recommendation
+			</p>
+		</header>
+
+		<section class="main-section">
+			<aside id="item-nav">
+				<div class="nav-icon">
+					<i class="fa fa-sitemap fa-2x"></i>
+				</div>
+				<nav class="main-nav">
+					<a href="#" id="nearby-btn" class="main-nav-btn active"> <i
+						class="fa fa-map-marker"></i> Nearby
+					</a> <a href="#" id="fav-btn" class="main-nav-btn"> <i
+						class="fa fa-heart"></i> My Favorites
+					</a> <a href="#" id="recommend-btn" class="main-nav-btn"> <i
+						class="fa fa-thumbs-up"></i> Recommendation
+					</a>
+				</nav>
+			</aside>
+		</section>
+		
+	</div>
+
+	<footer></footer>
+</body>
+
+
+</html>

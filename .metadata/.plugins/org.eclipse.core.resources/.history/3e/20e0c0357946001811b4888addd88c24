@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box; /* IE盒子模型 */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #434343;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 0.9em;
+} 
