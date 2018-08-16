@@ -1,5 +1,0 @@
-* {
-	box-sizing: border-box; /* IE盒子模型 */
-	margin: 0;
-	padding: 0;
-}

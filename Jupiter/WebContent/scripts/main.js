@@ -4,7 +4,7 @@
      * Variables
      */
     var user_id = '1111';
-    var user_fullname = 'John';
+    var user_fullname = " to Chang's demo site";
     var lng = -122.08;
     var lat = 37.38;
 
@@ -13,9 +13,9 @@
      */
     function init() {
         // Register event listeners
-        $('nearby-btn').addEventListener('click', loadNearbyItems);
-        $('fav-btn').addEventListener('click', loadFavoriteItems);
-        $('recommend-btn').addEventListener('click', loadRecommendedItems);
+        $('nearby-btn').addEventListener('click', loadNearbyItems); // 点击nearby加载附近事件
+        $('fav-btn').addEventListener('click', loadFavoriteItems);  // 点击喜爱
+        $('recommend-btn').addEventListener('click', loadRecommendedItems); // 点击推荐
 
         var welcomeMsg = $('welcome-msg');
         welcomeMsg.innerHTML = 'Welcome, ' + user_fullname;
